@@ -44,6 +44,12 @@ Plus le serpent mange de pommes plus il grandit.
 Attention! Si le serpent se rentre dedans ou s'il fonce sur un mur tu as perdu et le jeu s'arrête.
 Quand le jeu s'arrête on arrive sur la page de fin mais si tu veux rejouer il suffit de clicker sur la touche "REPLAY".
 
+![image](https://github.com/user-attachments/assets/2868ce80-03ae-4850-81a0-047ab14d8bfb)
+
+
+
+
+
 
 
 Pour lancer le jeu et pour qu'il marche bien bouger le dossier src (du répertoire) au complet (avec tous les fichiers png et wav) puis lancez le fichier NewSnakeGame.scala
