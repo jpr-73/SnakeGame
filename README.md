@@ -29,7 +29,7 @@ Nous avons implémenté une classe qui nous aide à utiliser des fichiers .wav p
 
 
 
-#Comment Jouer
+Règle Du Jeu
 
 quand le code est lancé on arrive sur la page de menu du jeu. 
 Pour commencer à jouer il suffit de clicker sur le bouton "PLAY" et la partie commence. 
