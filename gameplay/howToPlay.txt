@@ -1,0 +1,9 @@
+#Comment Jouer
+
+quand le code est lancé on arrive sur la page de menu du jeu. 
+Pour commencer à jouer il suffit de clicker sur le bouton "PLAY" et la partie commence. 
+Le serpent avance tout seul mais pour changer de direction il faut appuyer sur les flèches du clavier ou les touches WASD.
+Le but du jeu est de manger le plus de pommes possible sans mourir.
+Plus le serpent mange de pommes plus il grandit.
+Attention! Si le serpent se rentre dedans ou s'il fonce sur un mur tu as perdu et le jeu s'arrête.
+Quand le jeu s'arrête on arrive sur la page de fin mais si tu veux rejouer il suffit de clicker sur la touche "REPLAY".
