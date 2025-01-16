@@ -44,6 +44,16 @@ Plus le serpent mange de pommes plus il grandit.
 Attention! Si le serpent se rentre dedans ou s'il fonce sur un mur tu as perdu et le jeu s'arrête.
 Quand le jeu s'arrête on arrive sur la page de fin mais si tu veux rejouer il suffit de clicker sur la touche "REPLAY".
 
+
+
+![image](https://github.com/user-attachments/assets/3e767879-d29d-4b3b-8780-ddbe5c327c25)
+
+
+![image](https://github.com/user-attachments/assets/3375d33e-5b7d-411d-bbab-580e67ac0837)
+
+
+
+
 ![image](https://github.com/user-attachments/assets/2868ce80-03ae-4850-81a0-047ab14d8bfb)
 
 
