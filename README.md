@@ -1,5 +1,7 @@
 # SnakeGame
 
+
+
 Ce projet est le code du jeu Snake;
 
 Le projet et le but de la conception du jeu snake est de comprendre comment utiliser un array a deux dimension pour arriver a reproduire un serpent qui peut bouger dans une grille en haut, à gauche, à droite, en bas et qui grandit à chaque fois qu'il mange de la nourriture, le jeu se termine lorsque le serpent touche un bord de la fenêtre graphique ou si sa tête touche une partie de son corps.
@@ -26,6 +28,9 @@ Nous avons ajouté une fonction qui commence le jeu au moment ou le bouton "PLAY
 
 
 Nous avons implémenté une classe qui nous aide à utiliser des fichiers .wav pour mettre de la musique en arrière-plan et pour ajouter des bruitage à certaines actions par exemple lorsque le serpent meurt, ou lorsque le serpent mange de la nourriture. 
+
+
+
 
 
 
