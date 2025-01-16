@@ -30,10 +30,6 @@ Nous avons ajouté une fonction qui commence le jeu au moment ou le bouton "PLAY
 Nous avons implémenté une classe qui nous aide à utiliser des fichiers .wav pour mettre de la musique en arrière-plan et pour ajouter des bruitage à certaines actions par exemple lorsque le serpent meurt, ou lorsque le serpent mange de la nourriture. 
 
 
-
-
-
-
 ## Règle Du Jeu
 
 quand le code est lancé on arrive sur la page de menu du jeu. 
@@ -46,20 +42,30 @@ Quand le jeu s'arrête on arrive sur la page de fin mais si tu veux rejouer il s
 
 
 
+
+## Voici une image lorsque on lance le programe
+
 ![image](https://github.com/user-attachments/assets/3e767879-d29d-4b3b-8780-ddbe5c327c25)
 
-
+## Voici une image lorsque l'on appuye sur le bouton "PLAY"
 ![image](https://github.com/user-attachments/assets/3375d33e-5b7d-411d-bbab-580e67ac0837)
 
-
-
-
+## Voici une image lorsque l'on a perdu
 ![image](https://github.com/user-attachments/assets/2868ce80-03ae-4850-81a0-047ab14d8bfb)
 
 
 
+## Structure du code
 
+Premierement nous avons une class Audio pour jouer tout les fichiers de son que nous avons voulu ajouter pour faciliter les moment distinct dont on voulais jouer certains son, avec une fonction play et stop qui joue et arrête le fichier audio. Ensuite nous avons toutes les variable importante que nous avons besoins d'utiliser pour certaines condition ou pour faire le serpent ou la nourriture, ou jouer certains son. Nous avons les fonctions pour le score du jeu enregistrant le score et le meilleure score. Un resetsnake qui va repositionner le serpent a sa position initiale. 
 
+Une fonction qui dessine l'arrière plan du jeu et une marge, ensuite une fonction qui dessine l'arrière plan du menu en utilisant la fonction précédente, une fonction qui dessine le menu avec tout les détails ; titre, serpent, nourriture et arrière-plan. 
+
+Une fonction qui dessine le serpent dépendant de sa position et de sa direction (sa tête change de sens dépendant du sens du serpent), just en dessous nous avons une fonction qui dessine le serpent au moment d'une colision, ensuite une fonction qui dessine la nourriture dans la page. Une fonction qui affiche la grille dans la et affiche le tout (grille, serpent, pomme,..) sur la fenêtre FunGraphics pour les tests.
+
+Une fonction qui deplace le serpent dans la direction enregistré, une fonction qui place la nourriture à un endroit aléatoire qui n'est pas occupé par le serpent, une fonction qui change la direction du serpent, un timer pour enregistrer les déplacement du serpent toutes les 115 ms, une fonction qui capte les touches (flèches et WASD) pour changer la direction du serpent.
+
+Une fonction qui crée le du bouton (avec certaines dimensions) et le place à un certain endroit, une fonction qui crée un rectangle avec le string indiqué à la même position que le bouton, une fonction qui commence le jeu, une fonction qui recommence le jeu et le programme principal qui appel les fonctions importantes. 
 
 
 Pour lancer le jeu et pour qu'il marche bien bouger le dossier src (du répertoire) au complet (avec tous les fichiers png et wav) puis lancez le fichier NewSnakeGame.scala
